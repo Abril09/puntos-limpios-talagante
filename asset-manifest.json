@@ -1,26 +1,25 @@
 {
   "files": {
     "main.css": "/puntos-limpios-talagante/static/css/main.1cdd7933.chunk.css",
-    "main.js": "/puntos-limpios-talagante/static/js/main.c882eec7.chunk.js",
-    "main.js.map": "/puntos-limpios-talagante/static/js/main.c882eec7.chunk.js.map",
-    "runtime-main.js": "/puntos-limpios-talagante/static/js/runtime-main.964fced2.js",
-    "runtime-main.js.map": "/puntos-limpios-talagante/static/js/runtime-main.964fced2.js.map",
-    "static/js/2.a50293db.chunk.js": "/puntos-limpios-talagante/static/js/2.a50293db.chunk.js",
-    "static/js/2.a50293db.chunk.js.map": "/puntos-limpios-talagante/static/js/2.a50293db.chunk.js.map",
-    "static/js/3.e32786c4.chunk.js": "/puntos-limpios-talagante/static/js/3.e32786c4.chunk.js",
-    "static/js/3.e32786c4.chunk.js.map": "/puntos-limpios-talagante/static/js/3.e32786c4.chunk.js.map",
+    "main.js": "/puntos-limpios-talagante/static/js/main.1798d2de.chunk.js",
+    "main.js.map": "/puntos-limpios-talagante/static/js/main.1798d2de.chunk.js.map",
+    "runtime-main.js": "/puntos-limpios-talagante/static/js/runtime-main.8cba8a37.js",
+    "runtime-main.js.map": "/puntos-limpios-talagante/static/js/runtime-main.8cba8a37.js.map",
+    "static/js/2.46c2b220.chunk.js": "/puntos-limpios-talagante/static/js/2.46c2b220.chunk.js",
+    "static/js/2.46c2b220.chunk.js.map": "/puntos-limpios-talagante/static/js/2.46c2b220.chunk.js.map",
+    "static/js/3.ce8ebb10.chunk.js": "/puntos-limpios-talagante/static/js/3.ce8ebb10.chunk.js",
+    "static/js/3.ce8ebb10.chunk.js.map": "/puntos-limpios-talagante/static/js/3.ce8ebb10.chunk.js.map",
     "index.html": "/puntos-limpios-talagante/index.html",
     "static/css/main.1cdd7933.chunk.css.map": "/puntos-limpios-talagante/static/css/main.1cdd7933.chunk.css.map",
-    "static/js/2.a50293db.chunk.js.LICENSE.txt": "/puntos-limpios-talagante/static/js/2.a50293db.chunk.js.LICENSE.txt",
-    "static/media/grafico.ff538104.png": "/puntos-limpios-talagante/static/media/grafico.ff538104.png",
+    "static/js/2.46c2b220.chunk.js.LICENSE.txt": "/puntos-limpios-talagante/static/js/2.46c2b220.chunk.js.LICENSE.txt",
     "static/media/municipalidad.0a9db782.jpeg": "/puntos-limpios-talagante/static/media/municipalidad.0a9db782.jpeg",
     "static/media/quedatejpg.cc655753.png": "/puntos-limpios-talagante/static/media/quedatejpg.cc655753.png",
     "static/media/tottus.be13d9a2.jpeg": "/puntos-limpios-talagante/static/media/tottus.be13d9a2.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.964fced2.js",
-    "static/js/2.a50293db.chunk.js",
+    "static/js/runtime-main.8cba8a37.js",
+    "static/js/2.46c2b220.chunk.js",
     "static/css/main.1cdd7933.chunk.css",
-    "static/js/main.c882eec7.chunk.js"
+    "static/js/main.1798d2de.chunk.js"
   ]
 }
