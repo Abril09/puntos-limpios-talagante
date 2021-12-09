@@ -2,42 +2,44 @@ import './App.css';
 import DefaultLayout from './componets/Layout';
 import CardDot from "./componets/Card";
 import LayoutCard from "./componets/LayoutCard";
-import Maps from "./componets/Maps";
 import TottusImg from "./assets/puntos/tottus.jpeg"
 import Municipal from "./assets/puntos/municipalidad.jpeg"
 import Linea from "./assets/puntos/linea.jpeg"
 import Reciclaje from "./assets/puntos/reciclaje.jpeg"
 
 function App() {
-    const mapsKey = 'AIzaSyBXgTmQnLmJ3I3RzfBXbnJGqhgMOxH7c1w';
+
     const horario = '\nHorario: Lunes a Viernes 09:00 AM a 19:00 PM\n' +
         'Feriados y festivos 10:00 AM a 14:00 PM '
 
     const puntoReciclaje = [{
-        title: 'Punto de reciclaje de aceite Talagante',
-        text: 'Dirección: Bernardo O´Higgins 1528, Talagante.' + horario,
+        title: 'Punto de reciclaje.',
+        text: 'Dirección:Libertador Bernardo O´Higgins 1528, Talagante.' + horario,
         img: Reciclaje,
-        places: 'Aceite'
+        places: 'Aceite y productos electrónicos de pequeño tamaño.',
+        center: {lat: -33.665999, lng: -70.933972}
+
     }]
     const puntosLimpios = [{
         title: 'TriCiclos Tottus Cordillera',
         text: 'Dirección: Caletera 0441, Los Aromos, Talagante.\n' + horario,
         img: TottusImg,
         places: ` Botellas PET, papel, tetra pack, cartón, bolsas PE, plástico, vidrio, aluminio y otros metales.`,
+        center: {lat: -33.6565933, lng: -70.912239}
     },
         {
-            title: 'Reciclaje TriCiclos',
+            title: 'TriCiclos Lucas Pacheco',
             text: 'Dirección: Lucas Pacheco con Vía Férrea a Estadio Municipal, Talagante.' + horario,
             img: Linea,
             places: `Botellas PET, papel, tetra pack, cartón, bolsas PE, plástico, vidrio, aluminio y otros metales.`,
-            button: ''
+            center: {lat: -33.6579038 , lng: -70.9237640}
         },
         {
-            title: 'Centro de eventos municipal',
-            text: 'Dirección: Avenida Bernardo O\'higgins 3201, Talagante.\n' + horario,
+            title: 'TriCiclos Centro de eventos municipal',
+            text: 'Dirección: Avenida Libertador Bernardo O\'higgins 3201, Talagante.\n' + horario,
             img: Municipal,
             places: `Botellas PET, papel, tetra pack, cartón, bolsas PE, plástico, vidrio, aluminio y otros metales.`,
-            button: ''
+            center: {lat: -33.67413, lng: -70.95184}
         },
     ]
     return (
@@ -66,6 +68,7 @@ function App() {
                                         title={punto.title}
                                         img={punto.img}
                                         places={punto.places}
+                                        center={punto.center}
                         />
                     })}
                 </LayoutCard>
@@ -76,21 +79,19 @@ function App() {
                                         title={punto.title}
                                         img={punto.img}
                                         places={punto.places}
+                                        center={punto.center}
+
                         />
                     })}
                 </LayoutCard>
                 <div>
-                    {/*                   <h3>Encuentra tu punto</h3>
-                    <Maps
-                        googleMapURL={'https://maps.googleapis.com/maps/api/js?v=3.exp&key=' + mapsKey}
-                        containerElement={<div style={{height: '400px'}}/>}
-                        mapElement={<div style={{height: '400px'}}/>}
-                        loadingElement={<p>gola</p>}
-                    />*/}
+
                 </div>
             </DefaultLayout>
+
         </div>
     );
+
 }
 
 export default App;
